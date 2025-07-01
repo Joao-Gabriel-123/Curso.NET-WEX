@@ -12,7 +12,7 @@ int num3 = 10;
 //num2 = num2 + num3;
 num2 += num3;
 
-Console.WriteLine(num1);
+Console.WriteLine(num2);
 
 //Operador - e -=
 int num4 = 5;
@@ -36,8 +36,8 @@ Console.WriteLine(num6);
 int num8 = 5;
 int num9 = 10;
 
-num9 = num9 / num8;
-//num9 /= num8;
+//num9 = num9 / num8;
+num9 /= num8;
 
 Console.WriteLine(num9);
 
