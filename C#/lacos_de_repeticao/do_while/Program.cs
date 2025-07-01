@@ -1,2 +1,12 @@
-﻿// See https://aka.ms/new-console-template for more information
-Console.WriteLine("Hello, World!");
+﻿int soma = 0;
+int numero = 0;
+
+do
+{
+    Console.WriteLine("Digite um número (0 para parar)");
+    numero = Convert.ToInt32(Console.ReadLine());
+
+    soma += numero;
+} while (numero != 0);
+
+Console.WriteLine($"Total da soma dos números digitados é: {soma}");
