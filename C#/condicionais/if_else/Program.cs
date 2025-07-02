@@ -19,3 +19,10 @@ else
 {
     Console.WriteLine("Desculpe, não temos a quantidade desejada em estoque. ");
 }
+
+//IF e ELSE curtos
+//variável = (condição) ? ValorVerdadeiro :  ValorFalso;
+
+int hora = 20;
+string resultado = (hora < 18) ? "Bom dia." : "Boa tarde.";
+Console.WriteLine(resultado);
