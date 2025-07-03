@@ -28,10 +28,13 @@ short curto = 15; //-32787 a 32767
 
 ulong naturalLongo = 2757245278; //0 a 18446744073709551615
 
+const int num = 15;
+//myNum = 20; //irá causar um erro
+
 Console.WriteLine("Valor string: " + apresentacao);
 Console.WriteLine("Valor char: " + letra);
 Console.WriteLine("Valor int: " + quantidade);
-Console.WriteLine("Valor DateTime: " + data.ToString("dd/MM/yy"));
+Console.WriteLine("Valor DateTime: " + data.ToString("dd/MM/yyyy"));
 Console.WriteLine("Data atual: " + dataAtual);
 Console.WriteLine("Valor object: " + objeto);
 Console.WriteLine("Valor bool: " + sim);
@@ -43,3 +46,4 @@ Console.WriteLine("Valor long: " + longo);
 Console.WriteLine("Valor uint: " + natural);
 Console.WriteLine("Valor short: " + curto);
 Console.WriteLine("Valor ulong: " + naturalLongo);
+Console.WriteLine("Valor constante: " + num);
