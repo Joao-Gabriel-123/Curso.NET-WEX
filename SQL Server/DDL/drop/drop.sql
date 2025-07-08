@@ -1,7 +1,7 @@
 --Comando DROP, DELETA uma tabela ou banco de dados
 
---Deletando um banco de dados, caso ele exista
-DROP DATABASE IF EXISTS Produtos 
+--Deletando um banco de dados
+DROP DATABASE Produtos 
 
---Deletando uma tabela de produtos, caso ela exista
-DROP TABLE IF EXISTS dbo.Produtos
+--Deletando uma tabela de produtos
+DROP TABLE dbo.Produtos
