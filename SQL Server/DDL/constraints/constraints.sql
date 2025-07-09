@@ -5,4 +5,4 @@ AUTO_INCREMENT - Garante que a coluna se auto incremente
 UNIQUE - Garante que todos os valores de uma coluna sejam únicos
 PRIMARY KEY - Chave única que identifica cada registro na tabela
 FOREIGN KEY - Chave que identifica e relaciona um registro existente em outra tabela
-DEFAULT - Define um valor padrão para a coluna se nenhum valor for passado
+DEFAULT 'valor'- Define um valor padrão para a coluna se nenhum valor for passado

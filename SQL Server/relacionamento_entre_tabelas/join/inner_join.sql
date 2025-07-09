@@ -1,4 +1,5 @@
---Comando INNER JOIN, relaciona tabelas pegando todos os valores de ambas as tabelas
+--Comando INNER JOIN, relaciona tabelas pegando apenas as linhas que tenham valores nas duas colunas que se relacionam
+--Exemplo: Relacionamos a coluna Clientes com a Enderecos através das colunas Id e IdCliente, respectivamente. Apenas as linhas que possuirem valores em ambas as colunas irão aparecer.
 
 --Juntando a tabela enderecos com a tabela clientes
 SELECT *
@@ -17,4 +18,3 @@ SELECT
     Enderecos.Estado
 FROM Clientes
 INNER JOIN Enderecos ON Clientes.Id = Enderecos.IdCliente
-WHERE Clientes.Id = 4
